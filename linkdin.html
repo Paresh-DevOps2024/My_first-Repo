@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+</head>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+      <a href="#" class="w3-bar-item w3-button">Dhanajay posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">Shubham b likes your post</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <picture>
+        <source srcset="https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/128.webp 128w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/256.webp 256w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/384.webp 384w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/512.webp 512w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/640.webp 640w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/768.webp 768w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/896.webp 896w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1024.webp 1024w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1152.webp 1152w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1280.webp 1280w" type="image/webp" sizes="(max-width: 1280px) 100vw, 1280px"><img src="https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1280.jpeg"
+" class="w3-circle" style="height:23px;width:23px" alt="paresh">
+  </a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">MY PROFILE</h4>
+         <picture>
+        <source srcset="https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/128.webp 128w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/256.webp 256w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/384.webp 384w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/512.webp 512w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/640.webp 640w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/768.webp 768w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/896.webp 896w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1024.webp 1024w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1152.webp 1152w,https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1280.webp 1280w" type="image/webp" sizes="(max-width: 1280px) 100vw, 1280px"><img src="https://ckbox.cloud/1db0e3781d4c321ba8d7/assets/3Qlk5aixaJ4H/images/1280.jpeg" width="280" height="280">
+    </picture>
+    <h4 class="w3-center">PARESH GAWANDE</h4>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> AWS DevOps</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Nagpur (Maharshtra)</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> feb 21 1997</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
+          <div id="Demo1" class="w3-hide w3-container">
+            <p>Paresh Gawande, Shubham Behaniya, Dananjay Reawatkar, Mayur Nadekar</p>
+          </div>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
+          <div id="Demo2" class="w3-hide w3-container">
+            <p>Meating on 1/1/25</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+           <div class="w3-half">
+             <img src="/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/snow.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- skills --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>SKILLS</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">AWS</span>
+            <span class="w3-tag w3-small w3-theme-d4">devOps</span>
+            <span class="w3-tag w3-small w3-theme-d3">Linux</span>
+            <span class="w3-tag w3-small w3-theme-d2">Git</span>
+            <span class="w3-tag w3-small w3-theme-d1">Github</span>
+            <span class="w3-tag w3-small w3-theme">Maven</span>
+            <span class="w3-tag w3-small w3-theme-l1">Docker</span>
+            <span class="w3-tag w3-small w3-theme-l2">Kubernetes</span>
+            <span class="w3-tag w3-small w3-theme-l3">Terraform</span>
+            <span class="w3-tag w3-small w3-theme-l4">Ansible</span>
+            <span class="w3-tag w3-small w3-theme-l5">Jenkins</span>
+            <span class="w3-tag w3-small w3-theme-l6">Tomcat</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hello!</strong></p>
+        <p>My Name Is Paresh W. Gawande</p>
+        <p>This Is My Testing Application</p>
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">Linkdin</h6>
+              <p contenteditable="true" class="w3-border w3-padding">Good Morning</p>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i> Post</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+       <picture>
+        <source srcset="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/80.webp 80w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/160.webp 160w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/240.webp 240w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/320.webp 320w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/400.webp 400w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/480.webp 480w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/560.webp 560w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/613.webp 613w" sizes="(max-width: 613px) 100vw, 613px" type="image/webp"><img src="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/cVx-jRoNhkMw/images/613.jpeg"
+alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">1 min</span>
+        <h4>Shubham Behaniya</h4><br>
+        <hr class="w3-clear">
+        <p>hello!</p>
+        <p>Good Morning</p>
+        <p>Education is the most powerful weapon you can use to change the world.</p>
+
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <img src="/w3images/lights.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+            </div>
+            <div class="w3-half">
+              <img src="/w3images/nature.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+          </div>
+        </div>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> Comment</button> 
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <picture>
+        <source srcset="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/kZZLBw3vEYOK/images/80.webp 80w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/kZZLBw3vEYOK/images/160.webp 160w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/kZZLBw3vEYOK/images/240.webp 240w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/kZZLBw3vEYOK/images/320.webp 320w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/kZZLBw3vEYOK/images/347.webp 347w" sizes="(max-width: 347px) 100vw, 347px" type="image/webp"><img src="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/kZZLBw3vEYOK/images/347.jpeg" 
+alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">16 min</span>
+        <h4>Dhananjay Rewatkar</h4><br>
+        <hr class="w3-clear">
+        <p>India beat South Africa by 7 runs to win ICC T20 World Cup 2024</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> Comment</button> 
+      </div>  
+
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <picture>
+        <source srcset="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/JRnJ6iR-vDYo/images/80.webp 80w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/JRnJ6iR-vDYo/images/160.webp 160w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/JRnJ6iR-vDYo/images/240.webp 240w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/JRnJ6iR-vDYo/images/320.webp 320w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/JRnJ6iR-vDYo/images/392.webp 392w" sizes="(max-width: 392px) 100vw, 392px" type="image/webp"><img src="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/JRnJ6iR-vDYo/images/392.jpeg"
+alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">32 min</span>
+        <h4>Mayur Nadekar</h4><br>
+        <hr class="w3-clear">
+        <p>Have you seen this?</p>
+        <picture>
+        <source srcset="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/106.webp 106w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/212.webp 212w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/318.webp 318w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/424.webp 424w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/530.webp 530w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/636.webp 636w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/742.webp 742w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/848.webp 848w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/954.webp 954w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/1055.webp 1055w" type="image/webp" sizes="(max-width: 1055px) 100vw, 1055px"><img class="image_resized" style="width:63.33%;" src="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/xBJcP1YzyJb7/images/1055.jpeg" 
+ style="width:100%" class="w3-margin-bottom">
+        <p>Telangana Secretariat, officially known as Dr. B. R. Ambedkar Telangana State Secretariat situated at Hyderabad, is the administrative office of the employees of the Government of Telangana in India. The Telangana government on 15 September 2022 has decided to name the new Secretariat complex as Dr. B. R. Ambedkar Telangana Secretariat.[2] Designed by Chennai-based Architects Ponni Concessao and Oscar Concessao, the complex has been built by Shapoorji Pallonji and Company Pvt Limited with all Green Building Council norms. There is a 125-ft tall statue of Ambedkar beside the Telangana Secretariat.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> Comment</button> 
+      </div> 
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Upcoming Events:</p>
+          <picture>
+        <source srcset="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/160.webp 160w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/320.webp 320w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/480.webp 480w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/640.webp 640w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/800.webp 800w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/960.webp 960w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/1120.webp 1120w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/1280.webp 1280w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/1440.webp 1440w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/1600.webp 1600w" sizes="(max-width: 1600px) 100vw, 1600px" type="image/webp"><img src="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/2kBQAvTjX9vf/images/1600.jpeg"
+    alt="Forest" style="width:100%;">
+          <p><strong>SHIV JAYANTI</strong></p>
+          <p>Friday 19-FEB</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Friend Request</p>
+          <picture>
+        <source srcset="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/YMQCXwke5SXn/images/80.webp 80w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/YMQCXwke5SXn/images/160.webp 160w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/YMQCXwke5SXn/images/240.webp 240w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/YMQCXwke5SXn/images/320.webp 320w,https://ckbox.cloud/04e1267c3585f8d8a23d/assets/YMQCXwke5SXn/images/374.webp 374w" type="image/webp" sizes="(max-width: 374px) 100vw, 374px"><img src="https://ckbox.cloud/04e1267c3585f8d8a23d/assets/YMQCXwke5SXn/images/374.jpeg"
+          alt="Avatar" style="width:50%"><br>
+          <span>PRATIK GAWANDE</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+<picture>
+        <source srcset="https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/128.webp 128w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/256.webp 256w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/384.webp 384w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/512.webp 512w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/640.webp 640w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/768.webp 768w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/896.webp 896w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/1024.webp 1024w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/1152.webp 1152w,https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/1280.webp 1280w" sizes="(max-width: 1280px) 100vw, 1280px" type="image/webp"><img src="https://ckbox.cloud/f26f65b522a895cbb1c7/assets/Dv1Hroy7mYVd/images/1280.jpeg" width="200" height="200">
+    </picture>
+        <p>GAWANDE AGRO NURSURY</p>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+        <p><i class="fa fa-bug w3-xxlarge"></i></p>
+      </div>
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>pareshwgawande@gmail.com</h5>
+<h5>9689184618</h5>
+</footer>
+
+<footer class="w3-container w3-theme-d5">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Pareshgawande</a></p>
+</footer>
+ 
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id)
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
